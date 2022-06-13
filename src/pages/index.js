@@ -3,6 +3,7 @@ import About from "../components/About";
 import Hero from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Resume from "../components/Resume";
+import Service from "../components/Service";
 import Sidebar from "../components/Sidebar";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Hero />
             <About />
             <Resume />
+            <Service />
         </>
     );
 };

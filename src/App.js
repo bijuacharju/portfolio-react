@@ -5,7 +5,6 @@ function App() {
     return (
         <div className="app">
             <Home />
-            <div style={{ height: "2000px" }}></div>
         </div>
     );
 }

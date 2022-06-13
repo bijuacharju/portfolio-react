@@ -10,17 +10,17 @@ import {
 
 const Hero = () => {
     return (
-        <>
-            <HeroWrapper>
-                <HeroContainer>
-                    <Title>Biju Acharju</Title>
-                    <Intro>I'm professional React Developer in Dharan, Sunsari.</Intro>
-                    <IconWrapper to="about">
-                        <IconDown />
-                    </IconWrapper>
-                </HeroContainer>
-            </HeroWrapper>
-        </>
+        <HeroWrapper>
+            <HeroContainer>
+                <Title>Biju Acharju</Title>
+                <Intro>
+                    I'm professional React Developer in Dharan, Sunsari.
+                </Intro>
+                <IconWrapper to="about">
+                    <IconDown />
+                </IconWrapper>
+            </HeroContainer>
+        </HeroWrapper>
     );
 };
 
