@@ -90,7 +90,7 @@ const ResumeObject = ({ category, datas }) => {
 
 const Resume = () => {
     return (
-        <Wrapper>
+        <Wrapper id="resume">
             <Container>
                 <TitleContainer>
                     <TitleShadow>Resume</TitleShadow>

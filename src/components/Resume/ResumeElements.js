@@ -68,6 +68,7 @@ export const DataLink = styled.a`
     font-style: italic;
     font-size: 15px;
     text-decoration: none;
+    word-wrap: break-word;
     &:hover {
         text-decoration: underline;
         color: #ffb727;

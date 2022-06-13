@@ -29,7 +29,7 @@ const Row = ({ title, data }) => {
 
 const About = () => {
     return (
-        <Wrapper>
+        <Wrapper id="about">
             <Container>
                 <TitleContainer>
                     <TitleShadow>About Me</TitleShadow>

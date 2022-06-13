@@ -28,6 +28,7 @@ export const HeroContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 `;
 
 export const Title = styled.h1`
@@ -57,6 +58,8 @@ const upDown = keyframes`0% {
 
 export const IconWrapper = styled(LinkS)`
     background: transparent;
+    position: absolute;
+    bottom: 50px;
     z-index: 10;
     cursor: pointer;
     /* transition: 0.4s; */

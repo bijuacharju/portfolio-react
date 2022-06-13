@@ -10,9 +10,13 @@ import {
 import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ toggle }) => {
-    const [scrollY, setScrollY] = useState(0);
+    const [scrolled, setScrolled] = useState(false);
     function handleScroll() {
-        setScrollY(window.scrollY);
+        if (window.scrollY > 150) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
     }
 
     useEffect(() => {
@@ -23,24 +27,53 @@ const Navbar = ({ toggle }) => {
     }, []);
 
     return (
-        <>
-            <Nav scrolled={scrollY > 1}>
-                <NavContainer>
-                    <Logo to="/">Biju Acharju</Logo>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon>
-                    <NavItems>
-                        <NavItem to="home">Home</NavItem>
-                        <NavItem to="about">About</NavItem>
-                        <NavItem to="resume">Resume</NavItem>
-                        <NavItem to="services">Servies</NavItem>
-                        <NavItem to="portfolio">Portfolio</NavItem>
-                        <NavItem to="contact">Contact</NavItem>
-                    </NavItems>
-                </NavContainer>
-            </Nav>
-        </>
+        <Nav scrolled={scrolled}>
+            <NavContainer>
+                <Logo to="/">Biju Acharju</Logo>
+                <MobileIcon onClick={toggle}>
+                    <FaBars />
+                </MobileIcon>
+                <NavItems>
+                    <NavItem
+                        to="home"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        Home
+                    </NavItem>
+                    <NavItem
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        About
+                    </NavItem>
+                    <NavItem
+                        to="resume"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        Resume
+                    </NavItem>
+                    <NavItem
+                        to="services"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        Services
+                    </NavItem>
+                    <NavItem to="contact">Contact</NavItem>
+                </NavItems>
+            </NavContainer>
+        </Nav>
     );
 };
 

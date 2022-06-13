@@ -20,7 +20,7 @@ export const NavContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 0;
     @media (max-width: 960px) {
         max-width: 720px;
         justify-content: space-between;
@@ -69,7 +69,11 @@ export const NavItem = styled(LinkS)`
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
+    transition: 0.3s all ease-in-out;
     &:hover {
+        color: #ffb727;
+    }
+    &.active {
         color: #ffb727;
     }
 `;
