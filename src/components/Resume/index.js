@@ -140,7 +140,7 @@ const Resume = () => {
                                 {
                                     title: "+2 in Computer Science",
                                     stamp: "2016 - 2018",
-                                    subTitle: "CODE - IT, Prithvi Path, Dharan",
+                                    subTitle: "Dharan Adarsha Higher Secondary School, Dharan",
                                     description:
                                         "With the basic knowledge of the programming language I learned in this college, the learning of other languages were easy for me. The college helped me to grow my skills as an individual as well as to work in teams.",
                                 },
