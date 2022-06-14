@@ -37,6 +37,9 @@ export const Title = styled.h1`
     font-size: 64px;
     margin-bottom: 10px;
     font-family: "Satisfy", cursive;
+    word-wrap: break-word;
+    padding: 0 40px;
+    text-align: center;
 `;
 
 export const Intro = styled.p`
@@ -47,6 +50,9 @@ export const Intro = styled.p`
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 50px;
+    padding: 0 40px;
+    text-align: center;
+    word-wrap: break-word;
 `;
 
 const upDown = keyframes`0% {

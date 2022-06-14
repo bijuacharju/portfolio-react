@@ -1,15 +1,30 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    @media (max-width: 992px) {
+        flex-direction: column;
+    }
+    /* @media (max-width: 768px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    } */
+`;
+
 export const ContentField = styled.div`
     width: 50%;
     color: #333;
-    @media (max-width: 960px) {
+    padding: 0 10px;
+    box-sizing: border-box;
+    @media (max-width: 992px) {
         width: 100%;
     }
 `;
 
 export const FieldPanel = styled.div`
-    padding: 0 8px;
+    padding: 20px;
 `;
 
 export const FlexField = styled.div`
@@ -59,6 +74,8 @@ export const CardDescription = styled.p`
     font-weight: 400;
     line-height: 28px;
     margin: 0;
+    word-wrap: break-word;
+    padding: 0px;
 `;
 
 export const SocialIconHolder = styled.div`
@@ -92,7 +109,7 @@ export const SocialIcon = styled.a`
 
 export const FormField = styled.form`
     box-shadow: 0 4px 20px 0 rgba(68, 88, 144, 0.2);
-    margin: 8px 0;
+    margin: 8px 10px;
     border-radius: 4px;
     padding: 27px;
     text-align: center;

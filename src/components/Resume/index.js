@@ -6,9 +6,9 @@ import {
     TitleShadow,
     Title,
     SubTitle,
-    Content,
 } from "./../Common/CommonElements";
 import {
+    Content,
     ContentField,
     ContentWrapper,
     ContentCategory,

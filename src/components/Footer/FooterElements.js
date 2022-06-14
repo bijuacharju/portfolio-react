@@ -8,8 +8,9 @@ export const FooterWrapper = styled.div`
 
 export const FooterText = styled.p`
     text-align: center;
-    padding: 30px;
+    padding: 30px 40px;
     font-size: 14px;
+    word-wrap: break-word;
 `;
 
 export const Highlight = styled.span`

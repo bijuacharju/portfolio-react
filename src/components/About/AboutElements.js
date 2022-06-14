@@ -6,7 +6,9 @@ export const AboutImage = styled.div`
     min-width: 340px;
     background: url("${About}") top;
     background-size: cover;
-    /* height: 600px; */
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const AboutBody = styled.div`
@@ -15,6 +17,10 @@ export const AboutBody = styled.div`
     display: flex;
     flex-direction: column;
     color: #333;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const AboutInfo = styled.p`

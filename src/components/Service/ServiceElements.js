@@ -2,13 +2,21 @@ import styled from "styled-components";
 
 export const Content = styled.div`
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
+    box-sizing: border-box;
 `;
+
 export const ContentField = styled.div`
     width: 25%;
     display: flex;
     @media (max-width: 960px) {
         width: 50%;
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0 30px;
+        margin: 10px 0;
     }
 `;
 

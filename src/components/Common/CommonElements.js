@@ -5,17 +5,19 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-    max-width: 960px;
+    max-width: 992px;
     margin: auto;
 
-    @media (max-width: 960px) {
-        max-width: 720px;
+    @media (max-width: 992px) {
+        max-width: 768px;
     }
+    /* @media (max-width: 768px) {
+    } */
 `;
 
 export const TitleContainer = styled.div`
     text-align: center;
-    padding: 30px;
+    padding: 30px 40px;
     position: relative;
 `;
 
@@ -53,4 +55,9 @@ export const SubTitle = styled.p`
 export const Content = styled.div`
     display: flex;
     width: 100%;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 `;

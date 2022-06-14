@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const Content = styled.div`
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+`;
+
 export const ContentField = styled.div`
     width: 50%;
     @media (max-width: 960px) {
@@ -8,7 +19,6 @@ export const ContentField = styled.div`
 `;
 
 export const SkillItem = styled.div`
-    /* flex: 1; */
     margin: 20px;
     color: #333;
 `;

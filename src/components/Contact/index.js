@@ -1,7 +1,6 @@
 import React from "react";
 import {
     Container,
-    Content,
     SubTitle,
     Title,
     TitleContainer,
@@ -9,6 +8,7 @@ import {
     Wrapper,
 } from "../Common/CommonElements";
 import {
+    Content,
     ContactItem,
     ContentField,
     FieldPanel,

@@ -21,9 +21,12 @@ export const NavContainer = styled.div`
     align-items: center;
     margin: auto;
     padding: 10px 0;
-    @media (max-width: 960px) {
-        max-width: 720px;
+    @media (max-width: 992px) {
+        max-width: 768px;
         justify-content: space-between;
+    }
+    @media (max-width: 768px) {
+        padding: 10px 40px;
     }
 `;
 
@@ -35,7 +38,7 @@ export const Logo = styled(LinkS)`
     text-transform: uppercase;
     font-weight: 800;
     transition: 0.5s all ease-in-out;
-    @media (max-width: 960px) {
+    @media (max-width: 992px) {
         display: block;
     }
 `;
@@ -47,7 +50,7 @@ export const MobileIcon = styled.div`
     font-size: 24px;
     font-weight: 800;
     transition: 0.5s all ease-in-out;
-    @media (max-width: 960px) {
+    @media (max-width: 992px) {
         display: flex;
         align-items: center;
     }
@@ -57,7 +60,7 @@ export const NavItems = styled.div`
     display: flex;
     justify-content: center;
     transition: 0.5s all ease-in-out;
-    @media (max-width: 960px) {
+    @media (max-width: 992px) {
         display: none;
     }
 `;

@@ -1,9 +1,21 @@
 import styled from "styled-components";
 import { FaRegCircle } from "react-icons/fa";
+export const Content = styled.div`
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 0 40px;
+    }
+`;
 
 export const ContentField = styled.div`
     width: 50%;
     padding: 12px;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const ContentWrapper = styled.div`
