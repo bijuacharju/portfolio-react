@@ -15,7 +15,7 @@ import {
     CardTitle,
     CardDescription,
 } from "./ServiceElements";
-import { FaFlask, FaLaptopCode, FaDatabase, FaGlobe } from "react-icons/fa";
+import { FaLaptopCode, FaDatabase, FaGlobe, FaFileVideo } from "react-icons/fa";
 
 const CardObject = ({ icon, title, description }) => {
     return (
@@ -41,30 +41,30 @@ const Service = () => {
                 <Content>
                     <ContentField>
                         <CardObject
-                            icon={<FaFlask />}
-                            title="App App Development"
-                            description="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+                            icon={<FaFileVideo />}
+                            title="Video Editing"
+                            description="I can provide excellent video collaboration using Adobe Premiere Pro with my innovative ideas, I produce promotional and intro videos."
                         />
                     </ContentField>
                     <ContentField>
                         <CardObject
                             icon={<FaLaptopCode />}
                             title="Web Design"
-                            description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+                            description="I provide amazing designs with my graphics designing skills, using photoshop I can provide the designs to my clients as per their requirement."
                         />
                     </ContentField>
                     <ContentField>
                         <CardObject
                             icon={<FaDatabase />}
                             title="Database Analysis"
-                            description="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                            description="I can help my clients in analyzing data according to recent trends and make predictions and suggestions."
                         />
                     </ContentField>
                     <ContentField>
                         <CardObject
                             icon={<FaGlobe />}
                             title="Web Development"
-                            description="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
+                            description="I can develop responsive websites from scratch and using frameworks like bootstrap and React JS Library as per the client's requirements."
                         />
                     </ContentField>
                 </Content>
