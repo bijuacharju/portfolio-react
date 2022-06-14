@@ -29,7 +29,7 @@ export const NavContainer = styled.div`
 
 export const Logo = styled(LinkS)`
     display: none;
-    padding: 10px 0;
+    padding: 0;
     cursor: pointer;
     font-size: 24px;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ export const Logo = styled(LinkS)`
 
 export const MobileIcon = styled.div`
     display: none;
-    padding: 10px 0;
+    padding: 0;
     cursor: pointer;
     font-size: 24px;
     font-weight: 800;

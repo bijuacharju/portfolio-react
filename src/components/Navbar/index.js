@@ -62,6 +62,15 @@ const Navbar = ({ toggle }) => {
                         Resume
                     </NavItem>
                     <NavItem
+                        to="skills"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        Skills
+                    </NavItem>
+                    <NavItem
                         to="services"
                         smooth={true}
                         duration={500}
@@ -70,7 +79,15 @@ const Navbar = ({ toggle }) => {
                     >
                         Services
                     </NavItem>
-                    <NavItem to="contact">Contact</NavItem>
+                    <NavItem
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact="true"
+                    >
+                        Contact
+                    </NavItem>
                 </NavItems>
             </NavContainer>
         </Nav>

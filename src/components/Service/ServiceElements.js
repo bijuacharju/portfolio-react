@@ -18,6 +18,7 @@ export const CardTitle = styled.h4`
     margin-bottom: 15px;
     transition: all 0.5s ease-in-out;
 `;
+
 export const Card = styled.div`
     flex: 1;
     height: inherit;
@@ -25,7 +26,7 @@ export const Card = styled.div`
     margin: 10px;
     transition: all 0.5s ease-in-out;
     border-radius: 4px;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.3);
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.2);
     text-align: center;
     color: #333;
     border: 1px solid #fff;
